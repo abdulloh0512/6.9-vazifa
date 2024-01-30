@@ -1,0 +1,90 @@
+* {
+  text-decoration: none;
+  color: black;
+}
+.tovar_img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.tovar_brand {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.big_card {
+  width: 250px;
+  background-color: rgb(245, 237, 237);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.tovar_title {
+  font-weight: 600;
+}
+
+.tovar_description {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tovar_button {
+  border: none;
+  padding: 10px 80px;
+  background-color: rgb(4, 247, 73);
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin: 10px 0 10px 10px;
+  cursor: pointer;
+}
+
+.tovar_button:hover {
+    background-color: rgb(108, 253, 112);
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.img_div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+.box h1 {
+  text-align: center;
+  width: 500px;
+  margin-top: 10px;
+}
+
+
+.tovar_star {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.tovar_rating {
+    font-size: 24px;
+    font-weight: 600;
+}
